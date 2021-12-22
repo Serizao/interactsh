@@ -1,4 +1,4 @@
-module github.com/Serizao/interactsh2
+module github.com/Serizao/interactsh3
 
 go 1.15
 
