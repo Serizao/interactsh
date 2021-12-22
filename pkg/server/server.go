@@ -37,8 +37,6 @@ type Options struct {
 	IPAddress string
 	// ListenIP is the IP address to listen servers on
 	ListenIP string
-	// ListenIP is the IP address to listen servers on
-	PublicIP string
 	// Hostmaster is the hostmaster email for the server.
 	Hostmaster string
 	// Storage is a storage for interaction data storage
