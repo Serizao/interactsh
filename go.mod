@@ -44,3 +44,6 @@ require (
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/corvus-ch/zbase32.v1 v1.0.0
 )
+
+
+replace github.com/projectdiscovery/interactsh => github.com/Serizao/interactsh3 v0.0.7
