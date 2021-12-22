@@ -16,7 +16,7 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/projectdiscovery/interactsh/pkg/server"
+	"github.com/Serizao/interactsh3/pkg/server"
 	"github.com/projectdiscovery/interactsh/pkg/server/acme"
 	"github.com/projectdiscovery/interactsh/pkg/storage"
 )
