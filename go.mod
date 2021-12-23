@@ -1,5 +1,7 @@
 module github.com/Serizao/interactsh3
 
+replace github.com/projectdiscovery/interactsh => github.com/Serizao/interactsh3 v0.0.7
+replace github.com/projectdiscovery/interactsh/pkg/server => github.com/Serizao/interactsh3/pkg/server
 go 1.15
 
 require (
@@ -46,4 +48,4 @@ require (
 )
 
 
-replace github.com/projectdiscovery/interactsh => github.com/Serizao/interactsh3 v0.0.7
+
