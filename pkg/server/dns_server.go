@@ -66,7 +66,7 @@ func (h *DNSServer) ServeDNS(w dns.ResponseWriter, r *dns.Msg) {
 
 	gologger.Debug().Msgf("New DNS request: %s\n", requestMsg)
 	domain := strings.ToLower(m.Question[0].Name)
-
+gologger.Debug().Msgf("request domain: %s\n", domain)
 	var uniqueID, fullID string
 
 	// Clould providers
