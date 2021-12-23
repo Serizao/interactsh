@@ -55,7 +55,8 @@ func (h *DNSServer) ListenAndServe() {
 func (h *DNSServer) ServeDNS(w dns.ResponseWriter, r *dns.Msg) {
 	m := new(dns.Msg)
 	m.SetReply(r)
-	m.Authoritative = true
+	m.Compress = false
+	//m.Authoritative = true
 
 	// bail early for no queries.
 	if len(r.Question) == 0 {
